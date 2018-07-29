@@ -1,14 +1,24 @@
-# header 1
-
-a brief intro
+Getting started with NodeCG can be overwhelming.
+Here's my own quick guide to doing NodeCG things.
 
 * TOC
 {:toc}
 
-## header 2
+# environment
+* windows 10 x64
+* an internet connection
 
-some test
+# setup
+* install node
+* install yarn
+* install nodecg-cli, globally
+* make a project folder
+* nodecg setup into that folder
 
-## another header 2
+# validation
 
-more text
+# our first graphic
+
+# our first dashboard
+
+# our first extension
