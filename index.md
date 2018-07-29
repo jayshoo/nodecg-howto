@@ -8,8 +8,8 @@ Here's my own quick guide to doing NodeCG stuff.
 
 # our development environment
 * windows 10 x64
-* (visual studio code)[https://code.visualstudio.com/]
-* (git for windows cli)[https://git-scm.com/downloads]
+* [visual studio code](https://code.visualstudio.com)
+* [git for windows cli](https://git-scm.com/downloads)
 
 # let's setup NodeCG
 * install node
