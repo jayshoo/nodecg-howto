@@ -2,6 +2,7 @@ Getting started with NodeCG can be overwhelming.
 Here's my own quick guide to doing NodeCG stuff.
 
 # layout of this guide
+{:.no_toc}
 * TOC
 {:toc}
 
