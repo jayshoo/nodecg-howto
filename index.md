@@ -22,8 +22,25 @@ Yarn is a Javascript package manager, an alternative to the `npm` package manage
 ## NodeCG
 Pop open a console window, we've got work to do.
 
-```
-yarn global add nodecg-cli
+```posh
+D:\nodeCG-\nodecg\bundles (master -> origin)
+λ yarn global add nodecg-cli
+yarn global v1.7.0
+[1/4] Resolving packages...
+[2/4] Fetching packages...
+info fsevents@1.1.3: The platform "win32" is incompatible with this module.
+info "fsevents@1.1.3" is an optional dependency and failed compatibility check. Excluding it from installation.
+info fsevents@1.2.3: The platform "win32" is incompatible with this module.
+info "fsevents@1.2.3" is an optional dependency and failed compatibility check. Excluding it from installation.
+[3/4] Linking dependencies...
+[4/4] Building fresh packages...
+warning Your current version of Yarn is out of date. The latest version is "1.9.2", while you're on "1.7.0".
+info To upgrade, download the latest installer at "https://yarnpkg.com/latest.msi".
+success Installed "nodecg-cli@5.0.1" with binaries:
+      - nodecg
+Done in 13.46s.
+D:\nodeCG-\nodecg\bundles (master -> origin)
+λ
 ```
 
 
