@@ -46,7 +46,7 @@ info: [nodecg/lib/server] Starting NodeCG 1.1.2 (Running on Node.js v9.11.1)
 info: [nodecg/lib/server] NodeCG running on http://localhost:9090
 ```
 
-Go to http://localhost:9090 and give yourself a little pat on the back.
+Go to <http://localhost:9090> and give yourself a little pat on the back.
 
 ![Success!](assets/screencapture-localhost-9090-dashboard-2018-07-31-02_04_44.png)
 
