@@ -9,13 +9,17 @@ Here's my own quick guide to doing NodeCG stuff.
 # let's set up...
 ## our development environment
 * windows 10 x64
-* [nodejs runtime v10](https://nodejs.org)
 * [visual studio code](https://code.visualstudio.com)
-* [git for windows cli](https://git-scm.com/downloads)
+* [git for windows cli](https://git-scm.com/downloads) (ensure it's added to PATH)
+* [nodejs runtime](https://nodejs.org) (v10 recommended)
+* [yarn](https://yarnpkg.com) (.msi installer recommended)
+
+Visual Studio Code is a great, free, lightweight IDE inspired by the likes of Sublime and Atom.
+Git is a version control system - NodeCG depends on git, but we'll use it ourselves too.
+NodeJS is a server that runs Javascript code.
+Yarn is a Javascript package manager, an alternative to the `npm` package manager that ships with NodeJS.
 
 ## NodeCG
-* install node
-* install yarn
 * install nodecg-cli, globally
 * make a project folder
 * nodecg setup into that folder
