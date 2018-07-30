@@ -20,7 +20,7 @@ NodeJS is a server that runs Javascript code.
 Yarn is a Javascript package manager, an alternative to the `npm` package manager that ships with NodeJS.
 
 ## NodeCG
-Pop open a console window, we've got work to do.
+Pop open a console window, we've got work to do. Console
 
 ```console
 D:\nodeCG-\nodecg\bundles (master -> origin)
