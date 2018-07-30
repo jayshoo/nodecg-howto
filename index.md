@@ -85,7 +85,7 @@ Done in 0.11s.
 ```
 
 ## our first graphic
-Add a `graphics` section to `package.json`:
+Add a `graphics` section to our bundle's `package.json`:
 
 ```json
 "nodecg": {
@@ -99,8 +99,20 @@ Add a `graphics` section to `package.json`:
 }
 ```
 
+```html
+<!DOCTYPE html>
+
+<h1>My First Graphic</h1>
+
+<style>
+</style>
+
+<script>
+</script>
+```
+
 ## our first dashboard panel
-Add a `dashboardPanels` section to `package.json`:
+Add a `dashboardPanels` section to our bundle's `package.json`:
 
 ```json
 "nodecg": {
@@ -116,6 +128,24 @@ Add a `dashboardPanels` section to `package.json`:
 }
 ```
 
+```html
+<!DOCTYPE html>
+
+<h1>My First Panel</h1>
+
+<style>
+</style>
+
+<script>
+</script>
+```
+
 ## our first extension
-This time we don't need to edit `package.json`!
+This time we don't need to edit our `package.json`!
+Just create an `extension` folder with `index.js` inside.
+
+```js
+module.exports = nodecg => {
+}
+```
 
