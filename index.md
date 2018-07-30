@@ -10,9 +10,9 @@ Here's my own quick guide to doing NodeCG stuff.
 ## our development environment
 * windows 10 x64
 * [visual studio code](https://code.visualstudio.com)
-* [git for windows cli](https://git-scm.com/downloads) (ensure it's added to PATH)
-* [nodejs runtime](https://nodejs.org) (v10 recommended)
-* [yarn](https://yarnpkg.com) (.msi installer recommended)
+* [git for windows cli](https://git-scm.com/downloads) - add it to PATH when it asks
+* [nodejs runtime](https://nodejs.org) v10
+* [yarn](https://yarnpkg.com), using the .msi installer
 
 Visual Studio Code is a great, free, lightweight IDE inspired by the likes of Sublime and Atom.
 Git is a version control system - NodeCG depends on git, but we'll use it ourselves too.
