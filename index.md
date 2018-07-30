@@ -22,7 +22,7 @@ Yarn is a Javascript package manager, an alternative to the `npm` package manage
 ## NodeCG
 Pop open a console window, we've got work to do.
 
-```posh
+```console
 D:\nodeCG-\nodecg\bundles (master -> origin)
 λ yarn global add nodecg-cli
 yarn global v1.7.0
