@@ -6,7 +6,7 @@ Here's my own quick guide to doing NodeCG stuff.
 * TOC
 {:toc}
 
-# let's set up...
+# let's get set up!
 ## our development environment
 * windows 10 x64
 * [visual studio code](https://code.visualstudio.com)
@@ -20,6 +20,13 @@ NodeJS is a server that runs Javascript code.
 Yarn is a Javascript package manager, an alternative to the `npm` package manager that ships with NodeJS.
 
 ## NodeCG
+Pop open a console window, we've got work to do.
+
+```
+yarn global add nodecg-cli
+```
+
+
 * install nodecg-cli, globally
 * make a project folder
 * nodecg setup into that folder
