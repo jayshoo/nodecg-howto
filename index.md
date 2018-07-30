@@ -82,13 +82,40 @@ $ yarn init --yes
 warning The yes flag has been set. This will automatically answer yes to all questions.
 success Saved package.json
 Done in 0.11s.
-
 ```
 
 ## our first graphic
-```console
+Add a `graphics` section to `package.json`:
 
+```json
+"nodecg": {
+  "graphics": [
+    {
+      "file": "first.html",
+      "width": 1920,
+      "height": 1080
+    }
+  ]
+}
+```
 
-## our first dashboard
+## our first dashboard panel
+Add a `dashboardPanels` section to `package.json`:
+
+```json
+"nodecg": {
+  "dashboardPanels": [
+    {
+      "name": "first",
+      "title": "My First Panel",
+      "width": 4,
+      "headerColor": "#ff9900",
+      "file": "first.html"
+    }
+  ]
+}
+```
 
 ## our first extension
+This time we don't need to edit `package.json`!
+
