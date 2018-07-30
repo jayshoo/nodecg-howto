@@ -23,5 +23,6 @@ Here's my own quick guide to doing NodeCG stuff.
 # our first graphic
 
 # our first dashboard
+just some test text
 
 # our first extension
