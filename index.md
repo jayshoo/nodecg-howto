@@ -10,19 +10,45 @@ Questions, comments and changes are encouraged via GitHub issues and pull reques
 
 
 
+# NodeCG fundamentals
+
+## architecture
+nodecg hosts 1 webserver
+nodecg hosts 1 dashboard
+nodecg hosts 0..n replicants
+nodecg hosts 0..n bundles
+bundles host 0..n graphics and panels
+bundles host 0..1 extensions
+graphics, panels, extensions consume NodeCG API
+
+## panels and graphics
+These are web pages.
+Panels appear in the dashboard.
+They are used to 
+
+## extensions
+
+## replicants
+
+
 # let's get set up!
 
 ## development environment
-* windows 10 x64
-* [visual studio code](https://code.visualstudio.com)
-* [git for windows cli](https://git-scm.com/downloads) - add it to PATH when it asks
-* [nodejs runtime](https://nodejs.org) latest version
-* [yarn](https://yarnpkg.com), using the .msi installer
+Windows 10.
 
-Visual Studio Code is a great, free, lightweight IDE inspired by the likes of Sublime and Atom.
-Git is a version control system - NodeCG depends on git, and we'll use it too.
-NodeJS is a server that runs Javascript code.
-Yarn is a Javascript package manager, an alternative to the `npm` package manager that ships with NodeJS.
+[Visual Studio Code](https://code.visualstudio.com) is a good, free, fast editor.
+It uses a lot of ideas from Atom and Sublime Text.
+
+[Git (for windows cli)](https://git-scm.com/downloads) is a version control system.
+NodeCG depends on git, and we'll use it too.
+Add it to `PATH` when it asks.
+
+[NodeJS](https://nodejs.org) is a server that runs Javascript code.
+We use the latest version.
+
+[Yarn](https://yarnpkg.com) is a Javascript package manager.
+This useful tool finds and installs libraries we depend on.
+We use Yarn instead of `npm` which comes with NodeJS.
 
 ## NodeCG
 Open a console window, we've got work to do.
