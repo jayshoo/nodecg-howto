@@ -1,7 +1,7 @@
 Getting started with NodeCG can be overwhelming.
 Here's my own quick guide to doing NodeCG stuff.
 
-Questions, comments, additions are welcome on github as issues and pull requests.
+Questions, comments and changes are encouraged via GitHub issues and pull requests.
 
 ## layout of this guide
 {:.no_toc}
@@ -57,13 +57,13 @@ info: [nodecg/lib/server] Starting NodeCG 1.1.2 (Running on Node.js v9.11.1)
 info: [nodecg/lib/server] NodeCG running on http://localhost:9090
 ```
 
-Go to <http://localhost:9090> and give yourself a little pat on the back.
-A successful fresh installation looks like this:
+Go to <http://localhost:9090> and be proud.
+Your brand new NodeCG looks like this:
 
 ![Success!](assets/screencapture-localhost-9090-dashboard-2018-07-31-02_04_44.png)
 
-Let's stop NodeCG.
-Go back to the console and press `Ctrl+C` a few times.
+Let's stop NodeCG now.
+Go to the console and press `Ctrl+C` a few times.
 This kills the NodeCG.
 
 
@@ -71,6 +71,8 @@ This kills the NodeCG.
 # now we code
 
 ## our first bundle
+We need a folder for our bundle, and a `package.json` for it.
+
 ```console
 $ cd bundles
 D:\nodecg\bundles
@@ -84,11 +86,31 @@ success Saved package.json
 Done in 0.11s.
 ```
 
+Now we add a `nodecg` section to `package.json`.
+NodeCG looks at `compatibleRange` to see if it can run the bundle.
+`^1.0.0` allows everything from `1.0.0` onwards...
+but rejects everything from `2.0.0` onwards.
+We would change this if we depend on a new feature in `1.1.0`.
+
+```json
+{
+  "name": "toys",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "nodecg": {
+    "compatibleRange": "^1.0.0"
+  }
+}
+```
+
 ## our first graphic
-Add a `nodecg.graphics` section to our bundle's `package.json`:
+Add a `nodecg.graphics` section to our bundle's `package.json`.
+The `width` and `height` aren't strict, so don't worry.
 
 ```json
 "nodecg": {
+  "compatibleRange": "^1.0.0",
   "graphics": [
     {
       "file": "first.html",
@@ -99,15 +121,24 @@ Add a `nodecg.graphics` section to our bundle's `package.json`:
 }
 ```
 
+We need to make `first.html` - it goes in the `graphics` folder of our bundle.
+
 ```html
 <!DOCTYPE html>
 
 <h1>My First Graphic</h1>
+<div id="value"></div>
 
 <style>
 </style>
 
 <script>
+  element = document.getElementById('value')
+  replicant = nodecg.Replicant('first')
+  
+  replicant.on('change', newValue => {
+    element.innerText = newValue
+  })
 </script>
 ```
 
@@ -148,4 +179,3 @@ Just create an `extension` folder with `index.js` inside.
 module.exports = nodecg => {
 }
 ```
-
