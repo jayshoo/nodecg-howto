@@ -85,7 +85,7 @@ Done in 0.11s.
 ```
 
 ## our first graphic
-Add a `graphics` section to our bundle's `package.json`:
+Add a `nodecg.graphics` section to our bundle's `package.json`:
 
 ```json
 "nodecg": {
@@ -112,7 +112,7 @@ Add a `graphics` section to our bundle's `package.json`:
 ```
 
 ## our first dashboard panel
-Add a `dashboardPanels` section to our bundle's `package.json`:
+Add a `nodecg.dashboardPanels` section to our bundle's `package.json`:
 
 ```json
 "nodecg": {
