@@ -121,7 +121,8 @@ The `width` and `height` aren't strict, so don't worry.
 }
 ```
 
-We need to make `first.html` - it goes in the `graphics` folder of our bundle.
+We need to make `first.html`.
+It goes in the `graphics` folder of our bundle.
 
 ```html
 <!DOCTYPE html>
