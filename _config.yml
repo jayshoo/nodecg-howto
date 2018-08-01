@@ -1,4 +1,3 @@
-baseurl: nodecg-howto/
 theme: jekyll-theme-slate
-title: Howto Sweet Stream Graphics with NodeCG
-description: a very opinionated guide
+title: Sweet Stream Graphics with NodeCG
+description: an idiot-friendly guide
