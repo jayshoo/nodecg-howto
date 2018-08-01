@@ -6,9 +6,9 @@ Questions, comments and changes are encouraged via GitHub issues and pull reques
 ## layout of this guide
 
 <ul>
-  {% for section in site.sections %}
+  {% for doc in site.documents %}
     <li>
-      <a href="{{ section.url }}">{{ section.title }}</a>
+      <a href="{{ doc.url }}">{{ doc.title }}</a>
     </li>
   {% endfor %}
 </ul>
