@@ -8,7 +8,7 @@ Questions, comments and changes are encouraged via GitHub issues and pull reques
 <ul>
   {% for page in site.html_pages %}
     <li>
-      <a href="{{ page.url }}">{{ page.title }}</a>
+      <a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a>
     </li>
   {% endfor %}
 </ul>
