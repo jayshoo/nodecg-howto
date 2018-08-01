@@ -6,9 +6,10 @@ Questions, comments and changes are encouraged via GitHub issues and pull reques
 ## layout of this guide
 
 <ul>
-  {% for doc in site.documents %}
+  <li>item 1</li>
+  {% for page in site.pages %}
     <li>
-      <a href="{{ doc.url }}">{{ doc.title }}</a>
+      <a href="{{ page.url }}">{{ page.title }}</a>
     </li>
   {% endfor %}
 </ul>
